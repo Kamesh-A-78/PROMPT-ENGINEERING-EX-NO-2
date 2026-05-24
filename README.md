@@ -47,23 +47,9 @@ Role-based prompting assigns a specific persona, expertise level, or character t
 “Act as a friendly high-school physics teacher.” This framing helps the model adopt the right tone, depth, and perspective for the response.
 
 Here are the overall average scores for all 12 combinations:
+## OUTPUT:
 
-| Combination                         | Accuracy | Coherence | Simplicity | Speed | Overall (avg) |
-| Zero-shot + ChatGPT                |  7        | 8         |      9     |    10 |      **8.5** |
-| Role-based + ChatGPT               |    8      |    9      |      8      |    8 |      **8.3** |
-| Few-shot + ChatGPT                 |     9     |    9      |      7      |   7  |      **8.0** |
-| Role-based + Gemini                |     8     |    8      |     8       |   8  |      **8.0** |
-| Role-based + Grok                  |     7     |    8      |     9       |   8  |      **8.0** |
-| Zero-shot + Gemini                 |     7     |    7      |     8       |  10  |      **8.0** |
-| Few-shot + Gemini                  |     8     |    8      |     7       |   7  |      **7.5** |
-| Zero-shot + Grok                   |     6     |    7      |    8        |   10  |     **7.8** |
-| Few-shot + Grok                    |     7     |    8      |     7       |    7  |     **7.3** |
-| CoT + ChatGPT                      |    10     |    9      |     5       |    5  |     **7.3** |
-| CoT + Gemini                       |     9     |    9      |     5       |    5  |    **7.0**  |
-| CoT + Grok                         |     8     |    8      |     6       |    5  |     **6.8** |
+<img width="903" height="652" alt="Screenshot 2026-05-24 100828" src="https://github.com/user-attachments/assets/c1e57a25-2882-48d8-af9b-d55b76fa22c6" />
 
-User experience
-
-## OUTPUT
-
-## RESULT
+## RESULT: 
+hence evaluated and compared the effectiveness of prompting techniques (zero-shot, few-shot, chain-of-thought, role-based) across different AI platforms (e.g., ChatGPT, Gemini, Claude, Copilot) in a specific task: text summarization.
